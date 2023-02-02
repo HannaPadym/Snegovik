@@ -1,9 +1,7 @@
 import javax.swing.*;
-import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.io.*;
-import java.util.Formatter;
 
 public class StudyFile {
     static JFrame jFrame;
@@ -41,8 +39,4 @@ public class StudyFile {
         return jFrame;
     }
 
-    public static void addFile(String x, PrintWriter pw) {
-        pw.println(x);
-        pw.close();
-    }
 }
